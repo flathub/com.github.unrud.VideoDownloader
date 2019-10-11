@@ -192,5 +192,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/Unrud/video-downloader
-        tag: 0.1.5
-        commit: 03db5f25f0137c268b558268461f179b87c45188
+        tag: 0.1.6
+        commit: 8f1d36ff854e64de5600cf3656920c6fd6ca2d5a
