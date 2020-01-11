@@ -64,8 +64,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://ffmpeg.org/releases/ffmpeg-4.2.1.tar.xz",
-                    "sha256" : "cec7c87e9b60d174509e263ac4011b522385fd0775292e1670ecc1180c9bb6d4"
+                    "url" : "https://ffmpeg.org/releases/ffmpeg-4.2.2.tar.xz",
+                    "sha256" : "cb754255ab0ee2ea5f66f8850e1bd6ad5cac1cd855d0a2f4990fb8c668b0d29c"
                 }
             ]
         },
@@ -129,8 +129,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.2.1",
-                    "commit" : "6f3c12f994659d833a7c8423854e80ff390ec20a"
+                    "tag" : "0.2.2",
+                    "commit" : "ffddaaf46f7e32536cae20a2be33d1d15c8de135"
                 }
             ]
         }
