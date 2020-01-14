@@ -116,8 +116,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://yt-dl.org/downloads/2020.01.01/youtube-dl-2020.01.01.tar.gz",
-                    "sha256" : "0ab06abce0eecf77b6ceed4c06613325ede4e72e1a6ff528be320277250a1b5d"
+                    "url" : "https://yt-dl.org/downloads/2020.01.15/youtube-dl-2020.01.15.tar.gz",
+                    "sha256" : "556711f8dc827910096fd648d7ead051ddadb81b90ae4abdf0393ddf2d62d237"
                 }
             ]
         },
@@ -129,8 +129,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.2.2",
-                    "commit" : "ffddaaf46f7e32536cae20a2be33d1d15c8de135"
+                    "tag" : "0.2.3",
+                    "commit" : "cc9287a9932b94c071cb2bfcef7c8818b981586e"
                 }
             ]
         }
