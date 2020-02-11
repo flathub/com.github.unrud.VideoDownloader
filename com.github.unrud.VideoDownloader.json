@@ -70,42 +70,22 @@
             ]
         },
         {
-            "name" : "rtmpdump",
+            "name" : "pyxattr",
             "buildsystem" : "simple",
             "build-commands" : [
-                "make OPT=\"$CFLAGS\" XLDFLAGS=\"$LDFLAGS\"",
-                "make install prefix=/app"
+                "pip3 install . --prefix=/app --no-index --find-links ."
             ],
-            "cleanup" : [
-                "/sbin"
-            ],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "git://git.ffmpeg.org/rtmpdump",
-                    "commit" : "c5f04a58fc2aeea6296ca7c44ee4734c18401aa3"
-                },
-                {
-                    "type" : "shell",
-                    "commands" : [
-                        "sed -e 's/^CRYPTO=OPENSSL/#CRYPTO=OPENSSL/' -e 's/#CRYPTO=GNUTLS/CRYPTO=GNUTLS/' -i Makefile -i librtmp/Makefile"
-                    ]
-                }
-            ]
-        },
-        {
-            "name" : "atomicparsley",
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://bitbucket.org/wez/atomicparsley/get/0.9.6.tar.bz2",
-                    "sha256" : "e28d46728be86219e6ce48695ea637d831ca0170ca6bdac99810996a8291ee50"
+                    "url" : "https://github.com/iustin/pyxattr/archive/v0.7.1.tar.gz",
+                    "sha256" : "9caec22e2fb2d437a6a546be9a44fd7a809f56868fd6e175a4a26f38f50f4260"
                 }
             ]
         },
         {
             "name" : "youtube-dl",
-            /* Missing optional dependencies mpv and phantomjs */
+            /* Missing optional dependencies atomicparsley, mpv, phantomjs and rtmpdump */
             "buildsystem" : "simple",
             "build-commands" : [
                 "pip3 install . --prefix=/app --no-index --find-links ."
@@ -129,8 +109,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.2.3",
-                    "commit" : "cc9287a9932b94c071cb2bfcef7c8818b981586e"
+                    "tag" : "0.2.4",
+                    "commit" : "942d7f92b95c68b2d872e0d2a55786edbfe1c4e6"
                 }
             ]
         }
