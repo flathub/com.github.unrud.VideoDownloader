@@ -1,7 +1,7 @@
 {
     "app-id" : "com.github.unrud.VideoDownloader",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.34",
+    "runtime-version" : "3.36",
     "sdk" : "org.gnome.Sdk",
     "command" : "video-downloader",
     "finish-args" : [
@@ -13,6 +13,7 @@
         "--filesystem=~/.config/dconf:ro",
         "--talk-name=ca.desrt.dconf",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
+        "--talk-name=org.freedesktop.FileManager1",
         "--filesystem=xdg-download/VideoDownloader:create"
     ],
     "cleanup" : [
@@ -109,8 +110,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.2.5",
-                    "commit" : "8c4a436017faa5e63297fccc73c44674f9aa65f8"
+                    "tag" : "0.2.6",
+                    "commit" : "c664d045832016811f5e2c7e184c30a551408431"
                 }
             ]
         }
