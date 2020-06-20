@@ -29,6 +29,16 @@
     ],
     "modules" : [
         {
+            "name" : "imagemagick",
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://github.com/ImageMagick/ImageMagick/archive/7.0.10-19.tar.gz",
+                    "sha256" : "fe8b7706e17960c52c7cc3759ccc25b3ce29d3fa2b99035d81654450032faad6"
+                }
+            ]
+        },
+        {
             "name" : "chrpath",
             "cleanup" : [
                 "*"
@@ -110,8 +120,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.2.10",
-                    "commit" : "cf98bc2f32e6e5528efa44af4e11d947383e3f1d"
+                    "tag" : "0.3.0",
+                    "commit" : "2168f1040240d3e90bb78019388e5ead38ab131c"
                 }
             ]
         }
