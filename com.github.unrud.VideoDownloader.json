@@ -29,6 +29,24 @@
     ],
     "modules" : [
         {
+            "name": "libhandy",
+            "buildsystem": "meson",
+            "builddir": true,
+            "config-opts": [
+                "-Dexamples=false",
+                "-Dglade_catalog=disabled",
+                "-Dtests=false",
+                "-Dvapi=false"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.0/libhandy-1.0.0.tar.bz2",
+                    "sha256": "697b7774b4d2fb60c90fcf8fa61463c43c1408f7f7290a197eee4b62d10c6762"
+                }
+            ]
+        },
+        {
             "name" : "ffmpeg",
             "config-opts" : [
                 "--disable-debug",
@@ -80,26 +98,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/ytdl-org/youtube-dl/archive/2020.09.14.tar.gz",
-                    "sha256" : "8fe53d659390e463b40bbe8b3c099b2593c19ff55e41c2c01633ee3c27ef9ca4"
-                }
-            ]
-        },
-        {
-            "name": "libhandy",
-            "buildsystem": "meson",
-            "builddir": true,
-            "config-opts": [
-                "-Dexamples=false",
-                "-Dglade_catalog=disabled",
-                "-Dtests=false",
-                "-Dvapi=false"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.0/libhandy-1.0.0.tar.bz2",
-                    "sha256": "697b7774b4d2fb60c90fcf8fa61463c43c1408f7f7290a197eee4b62d10c6762"
+                    "url" : "https://github.com/ytdl-org/youtube-dl/archive/2020.09.20.tar.gz",
+                    "sha256" : "ead79e9248aaf7667f015da2ccd4bde44a8948fa980f82965609cdca88ad285e"
                 }
             ]
         },
@@ -111,8 +111,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.5.6",
-                    "commit" : "f262d83aebc04292c96bb29876b43158da93b90a"
+                    "tag" : "0.5.7",
+                    "commit" : "6cbfe2359ffa6cb7c96ad0a856054625e4fccf3a"
                 }
             ]
         }
