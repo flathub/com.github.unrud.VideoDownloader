@@ -108,8 +108,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.5.8",
-                    "commit" : "e61949d6b7163a1dce12194922558c256758c561"
+                    "tag" : "0.5.9",
+                    "commit" : "f48efcc88a4a9a7df88421af3a28319bf0095604"
                 }
             ]
         }
