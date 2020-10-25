@@ -95,7 +95,7 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "http://youtube-dl.org/downloads/latest/youtube-dl-2020.09.20.tar.gz",
+                    "url" : "https://yt-dl.org/downloads/latest/youtube-dl-2020.09.20.tar.gz",
                     "sha256" : "ead79e9248aaf7667f015da2ccd4bde44a8948fa980f82965609cdca88ad285e"
                 }
             ]
@@ -108,8 +108,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.6.0",
-                    "commit" : "7020471ea0ef2708f57740a184ffb84005805c99"
+                    "tag" : "0.6.1",
+                    "commit" : "1c2e24b049b23e0c595606abc1a37e2d750df3dc"
                 }
             ]
         }
