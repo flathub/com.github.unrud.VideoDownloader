@@ -92,6 +92,10 @@
                     "url" : "https://github.com/Unrud/video-downloader",
                     "tag" : "0.6.1",
                     "commit" : "1c2e24b049b23e0c595606abc1a37e2d750df3dc"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "end-of-life.appdata.patch"
                 }
             ]
         }
