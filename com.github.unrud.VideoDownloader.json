@@ -26,20 +26,20 @@
     ],
     "modules" : [
         {
-            "name": "libhandy",
-            "buildsystem": "meson",
-            "builddir": true,
-            "config-opts": [
+            "name" : "libhandy",
+            "buildsystem" : "meson",
+            "builddir" : true,
+            "config-opts" : [
                 "-Dexamples=false",
                 "-Dglade_catalog=disabled",
                 "-Dtests=false",
                 "-Dvapi=false"
             ],
-            "sources": [
+            "sources" : [
                 {
-                    "type": "archive",
-                    "url": "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.3/libhandy-1.0.3.tar.bz2",
-                    "sha256": "8cdeb88deaf13efbc0da73306bf8f8d14b6e5b108807a4f7b43d6a7c6e3a158d"
+                    "type" : "archive",
+                    "url" : "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.0.3/libhandy-1.0.3.tar.bz2",
+                    "sha256" : "8cdeb88deaf13efbc0da73306bf8f8d14b6e5b108807a4f7b43d6a7c6e3a158d"
                 }
             ]
         },
@@ -95,8 +95,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/ytdl-org/youtube-dl/archive/2021.01.24.1.tar.gz",
-                    "sha256" : "dd328dd0c7ba4ea2421adaceb8d184d078ee48de060e2da8a3b2c2d2814ac7ac"
+                    "url" : "https://github.com/ytdl-org/youtube-dl/archive/2021.02.04.1.tar.gz",
+                    "sha256" : "58ced501a3198cef38bf59774eed4cb88a56eb4b0840926b6e27cb1da7a06afc"
                 }
             ]
         },
@@ -108,8 +108,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.6.8",
-                    "commit" : "bb3d8dab73a91851ebf4cd9471634f132ca30b5b"
+                    "tag" : "0.7.0",
+                    "commit" : "395ba1c025c7e51afcaac056af61926a7f1ed778"
                 }
             ]
         }
