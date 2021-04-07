@@ -95,8 +95,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/ytdl-org/youtube-dl/archive/2021.04.01.tar.gz",
-                    "sha256" : "ac7eb420e846f26ebce23960fbd9332ece3682711f3d5698e905e67324e4d902"
+                    "url" : "https://github.com/ytdl-org/youtube-dl/archive/2021.04.07.tar.gz",
+                    "sha256" : "043913c481a93dc17d09be30740f3e1c4c9ad9d20611f79703a9c013db8c1796"
                 }
             ]
         },
@@ -108,8 +108,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "0.7.4",
-                    "commit" : "e6812900dfd7da514117136ce691ba08849784cf"
+                    "tag" : "0.7.5",
+                    "commit" : "7e41829924865d0dbdd21b44ea599eb8550f6f2e"
                 }
             ]
         }
