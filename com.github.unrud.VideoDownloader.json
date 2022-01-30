@@ -26,24 +26,6 @@
     ],
     "modules" : [
         {
-            "name" : "libhandy",
-            "buildsystem" : "meson",
-            "builddir" : true,
-            "config-opts" : [
-                "-Dexamples=false",
-                "-Dglade_catalog=disabled",
-                "-Dtests=false",
-                "-Dvapi=false"
-            ],
-            "sources" : [
-                {
-                    "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.5.0/libhandy-1.5.0.tar.bz2",
-                    "sha256" : "ca2e6fe95c214590f48b64db88d72526cefa23f67aacf5ebdc63dfbd25bff92b"
-                }
-            ]
-        },
-        {
             "name" : "ffmpeg",
             "config-opts" : [
                 "--disable-debug",
