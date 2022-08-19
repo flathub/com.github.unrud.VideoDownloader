@@ -9,6 +9,7 @@
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
+        "--device=dri",
         "--talk-name=org.freedesktop.FileManager1",
         "--filesystem=xdg-download/VideoDownloader:create",
         "--metadata=X-DConf=migrate-path=/com/github/unrud/VideoDownloader/"
@@ -166,8 +167,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/yt-dlp/yt-dlp/releases/download/2022.08.14/yt-dlp.tar.gz",
-                    "sha256" : "6a3cbf305fdfdc3b531761cf5457f904ef127fe5a837b511bb63703cf14f65ab",
+                    "url" : "https://github.com/yt-dlp/yt-dlp/releases/download/2022.08.19/yt-dlp.tar.gz",
+                    "sha256" : "4740a5ac43e6ff75808a6623145c32e1fc0884ea43bc06768fb40fbd1f97601c",
                     "x-checker-data" : {
                         "type" : "json",
                         /* Use the Tags API, because the Releases API sometimes returns older versions!? */
@@ -192,8 +193,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "v0.9.10",
-                    "commit" : "fd90d9fe05debde02ae39f6b7df04fb3209eb707",
+                    "tag" : "v0.10.0",
+                    "commit" : "1772b3ff4f3a7784bd4394dbcca5cb6e1d620607",
                     "x-checker-data" : {
                         "type" : "json",
                         "url" : "https://api.github.com/repos/Unrud/video-downloader/releases/latest",
