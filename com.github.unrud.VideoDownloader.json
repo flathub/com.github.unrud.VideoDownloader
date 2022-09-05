@@ -8,11 +8,10 @@
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
-        "--socket=wayland",
         "--device=dri",
+        "--socket=wayland",
         "--talk-name=org.freedesktop.FileManager1",
-        "--filesystem=xdg-download/VideoDownloader:create",
-        "--metadata=X-DConf=migrate-path=/com/github/unrud/VideoDownloader/"
+        "--filesystem=xdg-download/VideoDownloader:create"
     ],
     "cleanup" : [
         "/include",
@@ -193,8 +192,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "v0.10.2",
-                    "commit" : "048264c8b6c868f161a5d864d19b622d1d1d239a",
+                    "tag" : "v0.10.3",
+                    "commit" : "2e0f8585eaf99d90df5ac0afe873d4a26232ec08",
                     "x-checker-data" : {
                         "type" : "json",
                         "url" : "https://api.github.com/repos/Unrud/video-downloader/releases/latest",
