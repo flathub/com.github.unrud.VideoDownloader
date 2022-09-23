@@ -1,7 +1,7 @@
 {
     "app-id" : "com.github.unrud.VideoDownloader",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "43",
     "sdk" : "org.gnome.Sdk",
     "command" : "video-downloader",
     "finish-args" : [
@@ -10,7 +10,6 @@
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland",
-        "--talk-name=org.freedesktop.FileManager1",
         "--filesystem=xdg-download/VideoDownloader:create"
     ],
     "cleanup" : [
@@ -192,8 +191,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "v0.10.4",
-                    "commit" : "10a049c00841a94e133711cda6cf5150cf6077fc",
+                    "tag" : "v0.10.5",
+                    "commit" : "88590addcfbcdb871de3fd4949ed8236cfef8e65",
                     "x-checker-data" : {
                         "type" : "json",
                         "url" : "https://api.github.com/repos/Unrud/video-downloader/releases/latest",
