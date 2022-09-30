@@ -191,8 +191,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "v0.10.6",
-                    "commit" : "430438975e2c29be4cf2cf2e1b8ab09dc7bf88f4",
+                    "tag" : "v0.10.7",
+                    "commit" : "7b42cbd20d9238063bb0275307f2cab84954262d",
                     "x-checker-data" : {
                         "type" : "json",
                         "url" : "https://api.github.com/repos/Unrud/video-downloader/releases/latest",
