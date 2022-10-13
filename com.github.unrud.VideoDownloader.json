@@ -78,13 +78,13 @@
             "name" : "mutagen",
             "buildsystem" : "simple",
             "build-commands" : [
-                "pip3 install --prefix=/app ."
+                "pip3 install --no-build-isolation --prefix=/app ."
             ],
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/quodlibet/mutagen/archive/refs/tags/release-1.45.1.tar.gz",
-                    "sha256" : "308d5244c7242b084c824bbbea6d56ddd716300e1bce6420cb8c1e6781c0d4f9",
+                    "url" : "https://github.com/quodlibet/mutagen/archive/refs/tags/release-1.46.0.tar.gz",
+                    "sha256" : "734455642e734983353a85ec6e00c809564c63e53ec10cffc1152d51dd576b5e",
                     "x-checker-data" : {
                         "type" : "json",
                         "url" : "https://api.github.com/repos/quodlibet/mutagen/releases/latest",
@@ -191,8 +191,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/Unrud/video-downloader",
-                    "tag" : "v0.10.7",
-                    "commit" : "7b42cbd20d9238063bb0275307f2cab84954262d",
+                    "tag" : "v0.10.8",
+                    "commit" : "5080f8bbae5913052761ea21cda25e317b74b54c",
                     "x-checker-data" : {
                         "type" : "json",
                         "url" : "https://api.github.com/repos/Unrud/video-downloader/releases/latest",
