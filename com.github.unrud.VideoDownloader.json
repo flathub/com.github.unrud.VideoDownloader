@@ -119,7 +119,7 @@
             "name": "websockets",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --prefix=/app ."
+                "pip3 install --no-build-isolation --prefix=/app ."
             ],
             "sources": [
                 {
