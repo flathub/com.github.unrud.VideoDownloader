@@ -99,7 +99,7 @@
             "buildsystem": "simple",
             "build-commands": [
                 "touch .separate_namespace",
-                "pip3 install --prefix=/app ."
+                "pip3 install --no-build-isolation --prefix=/app ."
             ],
             "sources": [
                 {
