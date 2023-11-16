@@ -158,8 +158,7 @@
                     "commands": [
                         "sed -i 's/^certifi\\b/#\\0/' requirements.txt",
                         "sed -i 's/^requests\\b/#\\0/' requirements.txt",
-                        "sed -i 's/^urllib3\\b/#\\0/' requirements.txt",
-                        "sed -i 's/^secretstorage\\b/#\\0/' requirements.txt"
+                        "sed -i 's/^urllib3\\b/#\\0/' requirements.txt"
                     ]
                 }
             ]
