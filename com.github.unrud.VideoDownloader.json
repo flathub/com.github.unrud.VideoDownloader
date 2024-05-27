@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.unrud.VideoDownloader",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "video-downloader",
     "finish-args": [
@@ -162,8 +162,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Unrud/video-downloader",
-                    "tag": "v0.12.12",
-                    "commit": "1ad438972bd06b461aca153472978664d00b1511",
+                    "tag": "v0.12.13",
+                    "commit": "2895e5cba15201d60ff52c7cc459b09e4b6182e7",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Unrud/video-downloader/releases/latest",
