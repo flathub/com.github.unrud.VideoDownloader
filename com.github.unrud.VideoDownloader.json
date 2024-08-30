@@ -104,8 +104,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/aaugustin/websockets/archive/refs/tags/12.0.tar.gz",
-                    "sha256": "49978ae3f2aedf1c40ce9031c547fb766deaf7e86c3ec9677f0f5991bdc160ec",
+                    "url": "https://github.com/aaugustin/websockets/archive/refs/tags/13.0.1.tar.gz",
+                    "sha256": "0cfb2f88ac0b693ed282d408479edc57b948e6a786c0d3e48222e4e8d6ade85d",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/aaugustin/websockets/tags",
@@ -162,8 +162,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Unrud/video-downloader",
-                    "tag": "v0.12.17",
-                    "commit": "e169bf4df2bfdb09d32ec839292a481b909e7d77",
+                    "tag": "v0.12.18",
+                    "commit": "3057123c827c17e3f0b0295d93f8ca816f1571ad",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Unrud/video-downloader/releases/latest",
