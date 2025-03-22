@@ -84,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v3.21.0.tar.gz",
-                    "sha256": "195e5cdfbb550b03f83f2af2aa4652c14b64783574d835fe61bb06c8fc06ba21",
+                    "url": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v3.22.0.tar.gz",
+                    "sha256": "d1499d50dfe0628fe45157956e9c522011f37043a2d3f2457631c97e56f9e6c1",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Legrandin/pycryptodome/tags",
@@ -144,8 +144,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9e/45/6d1b759e68f5363b919828fb0e0c167a1cd5003b5b7c74cc0f0c2096be4f/yt_dlp-2025.2.19-py3-none-any.whl",
-                    "sha256": "3ed218eaeece55e9d715afd41abc450dc406ee63bf79355169dfde312d38fdb8",
+                    "url": "https://files.pythonhosted.org/packages/94/ea/d610d546864949ee38077fd6cb785eb9907d857b1e9d5bf57d460f1df33d/yt_dlp-2025.3.21-py3-none-any.whl",
+                    "sha256": "80d5ce15f9223e0c27020b861a4c5b72c6ba5d6c957c1b8fd2a022a69783f482",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "yt-dlp",
