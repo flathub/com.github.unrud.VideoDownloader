@@ -84,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v3.22.0.tar.gz",
-                    "sha256": "d1499d50dfe0628fe45157956e9c522011f37043a2d3f2457631c97e56f9e6c1",
+                    "url": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v3.23.0.tar.gz",
+                    "sha256": "5a905f0f4237b79aefee47f3e04568db2ecb70c55dd7cb118974c5260aa9e285",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Legrandin/pycryptodome/tags",
@@ -162,8 +162,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Unrud/video-downloader",
-                    "tag": "v0.12.25",
-                    "commit": "52f5b7ec483b70047fbd35f63e75e52eaf6c4cf0",
+                    "tag": "v0.12.26",
+                    "commit": "cb6b5ec3b04f5a9851f85a2a1dc080e40896cb8d",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Unrud/video-downloader/releases/latest",
