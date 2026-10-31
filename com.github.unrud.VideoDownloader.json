@@ -94,8 +94,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/aaugustin/websockets/archive/refs/tags/17.3.tar.gz",
-                    "sha256": "f80496c1d689e629c184055e15e27734251c7214841d486428c15bed185162ee",
+                    "url": "https://github.com/aaugustin/websockets/archive/refs/tags/17.4.tar.gz",
+                    "sha256": "80563c93e613e1ef6b579de346b405019be300b73c22f8dae7cfc79067492ddf",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/aaugustin/websockets/tags",
