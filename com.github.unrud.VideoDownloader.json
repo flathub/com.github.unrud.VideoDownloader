@@ -74,8 +74,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v4.2.0.tar.gz",
-                    "sha256": "505da9787103d1fc451aba677223db65c9b870b273f132fa862e918393349123",
+                    "url": "https://github.com/Legrandin/pycryptodome/archive/refs/tags/v4.4.0.tar.gz",
+                    "sha256": "5fefcab5739c74fa3f12e44b5bda747dd475244a48dc84c13bf22e5ae58cb224",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Legrandin/pycryptodome/tags",
@@ -94,8 +94,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/aaugustin/websockets/archive/refs/tags/17.3.tar.gz",
-                    "sha256": "f80496c1d689e629c184055e15e27734251c7214841d486428c15bed185162ee",
+                    "url": "https://github.com/aaugustin/websockets/archive/refs/tags/17.4.tar.gz",
+                    "sha256": "80563c93e613e1ef6b579de346b405019be300b73c22f8dae7cfc79067492ddf",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/aaugustin/websockets/tags",
